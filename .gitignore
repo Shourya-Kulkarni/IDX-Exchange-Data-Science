@@ -1,0 +1,27 @@
+# Data (MLS data is licensed, so never commit it)
+data/
+*.csv
+*.parquet
+
+# Exceptions: small summary files with no property data
+!cleaning_log.csv
+!baseline_results.csv
+!metrics_summary.csv
+!model_comparison.csv
+
+# Saved models (large)
+*.joblib
+*.pkl
+
+# Environment variables / credentials
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store

@@ -1,0 +1,7 @@
+split,model,R2,MAPE %,MdAPE %,MAE $,Within 20 %,X
+validation (Mar),Linear Regression,0.8,15.391,11.813,204797.95,73.914,7
+validation (Mar),Decision Tree,0.838,14.408,10.28,193308.395,76.549,7
+validation (Mar),Random Forest,0.878,11.899,8.215,162538.385,82.973,7
+test (Apr),Linear Regression,0.813,15.601,11.699,213024.688,73.414,7
+test (Apr),Decision Tree,0.833,14.869,10.519,204779.482,75.656,7
+test (Apr),Random Forest,0.872,12.143,8.338,170346.306,82.89,7
