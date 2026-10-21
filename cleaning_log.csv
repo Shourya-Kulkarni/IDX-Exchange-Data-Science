@@ -1,0 +1,11 @@
+step,rows_before,rows_after,rows_removed,pct_removed
+Residential / SingleFamilyResidence filter,215050,107748,107302,49.9
+MlsStatus == Closed,107748,107748,0,0.0
+ClosePrice not null and > 0,107748,107747,1,0.0
+Dates in order (list <= contract <= close),107747,107676,71,0.07
+Duplicate ListingKey,107676,107607,69,0.06
+Duplicate address + CloseDate,107607,107521,86,0.08
+CloseMonth within downloaded months,107521,107521,0,0.0
+LivingArea > 0 and not missing,107521,107428,93,0.09
+At least 100 sq ft per bedroom,107428,107426,2,0.0
+Non-California / unknown county removed,107426,107416,10,0.01
