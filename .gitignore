@@ -8,6 +8,8 @@ data/
 !baseline_results.csv
 !metrics_summary.csv
 !model_comparison.csv
+!advanced_model_results.csv
+!metrics_summary.csv
 
 # Saved models (large)
 *.joblib
